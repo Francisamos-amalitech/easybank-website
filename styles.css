@@ -31,7 +31,7 @@ body{
 header{
     width:100%;
     height:100vh;
-    position:relative;
+
 }
 
 
@@ -39,10 +39,15 @@ header{
 
 
 nav{
+    height:60px;
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding:2% 8%;
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:var(--white-color);
 
 }
 
@@ -67,23 +72,25 @@ nav li a{
 
 
 
+
 /* -----WELCOME SECTION STYLING--------- */
 
     .welcome-section{
         width:100%;
         margin-top:2%;
         padding:2% 8%;
+        
     }
 
 
     .welcome-section  h1{
         font-weight:300;
-        font-size:70px;
+        font-size:65px;
         margin-bottom:20px;
     }
 
     .welcome-section p{
-        width:400px;
+        width:450px;
         line-height:28px;
         font-size:18px;
         color:var(--gray-color);
@@ -94,19 +101,62 @@ nav li a{
         margin-top:25px;
     }
 
-
-
-    .intro-img img{
+    .banner{
         width:100%;
-        position:absolute;
-        top:-2%;
-        right:-50%;
-        z-index:-1;
+       display:flex;
+       background:#f1f1f1;
+       height:100vh;
     }
 
+    .intro-img img{
+        width:81%;
+        position:absolute;
+        top:-24%;
+        right:-20%;
+        z-index:1;
+    }
+
+
+    .intro-img .phone{
+        width:45%;
+        position:absolute;
+        top:8%;
+        right:2%;
+        z-index:1;
+    }
 /* ----END OF WELCOME SECTION STYLING ------- */
 
 /*-----END OF NAVBAR SECTION------- */
 
 
+/* ----- ------WHY CHOOSE STYLING------- */
+
+section{
+    padding:50px 0;
+    background:#edebeb;
+}
+
+
+.why-choose-info{
+    padding:2% 8%;
+    margin-top:20px;
+}
+
+.why-choose-info h1{
+    font-size:40px;
+    font-weight:300;
+    margin-bottom:20px;
+}
+
+.why-choose-info p{
+    width:400px;
+    line-height:28px;
+    color:var(--gray-color)
+}
+
+
+
+
+
+/*-------- END WHY CHOOSE STYLING ------- */
 
