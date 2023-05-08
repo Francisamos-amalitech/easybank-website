@@ -1,0 +1,17 @@
+/* ----CSS RESET------ */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+/* -----VARIABLES------- */
+
+:root{
+    --light-green:#31ce73;
+    --light-blue:#2cbac4;
+    --black-color:#000;
+    --white-color:#fff;
+    --blue-black:#2d314e;
+}
