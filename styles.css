@@ -3,7 +3,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins', sans-serif;
+    font-family:'Public sans', sans-serif;
+    text-decoration:none;
 }
 
 /* -----VARIABLES------- */
@@ -14,4 +15,54 @@
     --black-color:#000;
     --white-color:#fff;
     --blue-black:#2d314e;
+    --gray-color:#9c9b9b;
 }
+
+
+/* -----NAVBAR STYLING ------- */
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:2% 8%;
+
+}
+
+nav li{
+    display:inline-block;
+    margin:10px 20px;
+}
+
+nav li a{
+    color:var(--gray-color);
+    font-size:17px;
+}
+
+.request-btn{
+    padding:15px 30px;
+    background:linear-gradient(to right,#31ce73,#2cbac4);
+    color:var(--white-color);
+    border-radius:25px;
+    font-size:17px;
+    font-weight:700;
+}
+
+
+
+/* -----WELCOME SECTION STYLING--------- */
+
+    .welcome-section{
+        width:100%;
+        margin-top:2%;
+        padding:2% 8%;
+    }
+
+
+
+
+/* ----END OF WELCOME SECTION STYLING ------- */
+
+/*-----END OF NAVBAR SECTION------- */
+
+
+
